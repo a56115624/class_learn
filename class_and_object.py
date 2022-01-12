@@ -7,4 +7,8 @@ class phone:
 
 # phone1 就是我們的物件
 phone1 = phone("ios",123,True)
- 
+phone2 = phone("andriod",456,False)
+print(phone1.os)
+print(phone1.number)
+print(phone2.number)
+
