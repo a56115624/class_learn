@@ -14,4 +14,4 @@ print(result)
 
 # 調整搜索模組的路徑
 import sys
-print(sys.path)   # 印出模組的搜索路徑
+sys.path.append("modules") #在模組的搜索路徑列表中[新增路徑]
